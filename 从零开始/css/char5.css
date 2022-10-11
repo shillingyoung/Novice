@@ -1,0 +1,57 @@
+.header{
+	background-color: black;
+	height: 100px;
+	margin: 0 auto;
+	width: 90%;
+}
+.header span{
+	font-size: 2em;
+	text-align:left;
+	vertical-align: middle;
+	color: white;
+	float: left;
+	position:relative;
+	top:25px;
+}
+.header img{
+	width:150px ;
+	height: 80px;
+	float: right;
+	margin: 10px ;
+}
+
+
+.page .nav{
+	width: 280px;
+	margin: 20px auto;
+}
+span{
+	border: 1px solid black;
+	padding: 2px;
+	margin: 0 auto;
+	
+}
+
+.foot{
+	background-color: black;
+	margin: 0 auto;
+	height: 200px;
+	width: 100%;
+	float: left;
+}
+
+.page .photo{
+	float: left;
+	width: 30%;
+	position: relative;
+	left:200px;
+}
+
+.pic{
+	margin: 0 auto;
+}
+
+.page{
+	margin: 20px auto;
+	
+}

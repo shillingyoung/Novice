@@ -1,0 +1,52 @@
+table{
+	border-collapse: collapse;
+	border:2px solid black ;
+	margin: 200px;
+}
+th{
+	background-color: bisque;
+	padding: 20px;
+}
+tr{
+	text-align: center;
+
+}
+
+td{
+	padding: 20px;
+}
+
+td:nth-child(2n){
+	background-color: cornsilk;
+}
+
+.form{
+	background-color: black;
+	padding-top: 200px;
+	height: 800px;
+}
+.back{
+	background-color: white;
+	height: 80%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.t1{
+	font-size: 3em;
+	margin: 0 auto;
+	width: 200px;
+}
+.t2{
+	font-size: 2em;
+	margin: 0 auto;
+	width: 600px;
+}
+form{
+	width: 300px;
+	margin: 100px auto;
+}
+button{
+	width: 150px;
+	height: 50px;
+}

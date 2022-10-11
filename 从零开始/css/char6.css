@@ -1,0 +1,84 @@
+.header{
+	width: 100%;
+	height: 200px;
+}
+.cover{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	position: relative;
+	top: -150px;
+}
+.header img{
+	opacity:0.4;
+	z-index: -1;
+}
+.page .nav{
+	width: 280px;
+	margin: 20px auto;
+}
+span{
+	border: 1px solid black;
+	padding: 2px;
+	margin: 0 auto;
+	
+}
+
+.foot{
+	background-color: black;
+	margin: 0 auto;
+	height: 200px;
+	width: 100%;
+	float: left;
+}
+
+.photo{
+	float: left;
+	width: 30%;
+	position: relative;
+	left:200px;
+}
+
+.pic{
+	margin: 0 auto;
+}
+
+.page{
+	margin: 20px auto;
+	
+}
+
+.back{
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	background-color: red;
+	right: 20px;
+	bottom: 50px;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.text{
+	width:100px;
+	height:50px;
+	color: red;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	bottom: 0;
+	opacity: 0;
+}
+
+.text:hover{
+	width:40%;
+	height:100%;
+	color: red;
+	text-align: center;
+	position: absolute;
+	bottom:-1px;
+	background-color: rgba(0, 255, 0, 0.5);
+	opacity: 1;
+}

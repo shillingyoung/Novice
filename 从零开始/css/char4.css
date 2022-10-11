@@ -1,0 +1,39 @@
+.contain{
+	margin: 300px auto 0;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+
+p{
+	color: gray;
+	text-align: center;
+}
+
+.bottom{
+	background-color: yellow;
+	text-align: center;
+	width: 15%;
+	color: black;
+	margin: auto;
+}
+body{
+	background-color: black;
+}
+.nav{
+	color: grey;
+	display: inline;
+	margin: 50px 50px;
+	border-top:10px solid black;
+
+}
+
+.nav:hover{
+	color: grey;
+	display: inline;
+
+	border-top: 10px solid yellow;
+	margin: 50px 50px;
+
+}

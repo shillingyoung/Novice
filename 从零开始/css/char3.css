@@ -1,0 +1,18 @@
+body{
+	background:black url(img/1.jpg) center center;
+	color: white;
+}
+h1{
+	font-size: 40px;
+	font-family: MicrosftYaHeiUI-Bold;
+	text-align: center;
+}
+p{
+	font-size: 20px;
+	line-height: 40px;
+	font-family: MicrosftYaHeiUI-Bold;
+	text-indent: 2em;
+}
+span{
+	background-color: red;
+}

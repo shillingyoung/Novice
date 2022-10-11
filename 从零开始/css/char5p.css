@@ -1,0 +1,64 @@
+.nav{
+	height: 88px;
+	border-bottom: 2px solid gray;
+}
+.nav img{
+	float: left;
+	width: 100px;
+	line-height: 88px;
+	margin: 0 0 0 80px;
+}
+
+.btn{
+	float: right;
+	margin: 0 10px 0 60px;
+	width: 180px;
+	line-height: 88px;
+}
+.main{
+	margin-left:60px ;
+	width: 300px;
+	line-height: 88px;
+	float: left;
+}
+
+.b1,.b2{
+	float: left;
+	border-radius: 18px;
+	width: 50px;
+	margin: 22px 10px;
+	text-align: center;
+	background-color: yellow;
+	height: 40px;
+	line-height: 40px;
+}
+span{
+	padding: 5px;
+}
+
+.page{
+	width: 395px;
+	height: 180px;
+	border: 1px solid black;
+}
+
+.img{
+	width: 180px;
+	height: 180px;
+	background-color: wheat;
+	float: left;
+}
+
+.info{
+	width: 180px;
+	height: 180px;
+	background-color:yellow;
+	margin-left: 34px;
+	float: right;
+}
+
+.page:after{
+	clear: both;
+	display: block;
+	content: :"";
+}
