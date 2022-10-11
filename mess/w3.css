@@ -1,0 +1,13 @@
+body {
+  background-image: url("tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;	/*指定背景图像是应该滚动还是固定的scroll*/
+}
+
+p {
+  margin: 50px;
+  border: 1px solid black;
+  outline: 1px solid red;		/*边框*/
+  outline-offset: 25px;		/*边框偏移*/
+}		

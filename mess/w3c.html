@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<title>w3c</title>
+<script>
+var i=prompt("input");
+</script>
+<base href="http://www.w3school.com.cn/images/" />
+<base target="_blank" />		<!--为页面上的所有链接规定默认地址或默认目标-->
+</head>
+
+<body>
+<h1 id="h1">
+<a href="#tips">有用的提示</a>
+</h1>
+<p style="color: red; margin-left: 20px">
+This is a paragraph
+<br>
+<a name="tips">基本的注意事项 - 有用的提示</a>		<!--name属性锚常用于在大型文档开始位置上创建目录-->
+<iframe src="demo_iframe.htm" width="2000" height="200" frameborder="0"></iframe>	<!--在网页内显示网页-->
+</p>	<!--内联样式-->
+
+
+</body>
+<frameset cols="25%,75%">
+   <frame src="frame_a.htm">
+   <frame src="frame_b.htm">
+</frameset>	<!--放置在每个框架中的 HTML 文档 不能将 <body></body> 标签与 <frameset></frameset> 标签同时使用！不过，假如你添加包含一段文本的 <noframes> 标签，就必须将这段文字嵌套于 <body></body> 标签内-->
+</html>

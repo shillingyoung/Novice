@@ -1,0 +1,134 @@
+body
+	{	
+	font-family:  Verdana,Geneva,Arial, sans-serif,"Courier Newdee";	/*顺序使用*/
+	font-size:14px;		/*简写(style variant weight)size/line-height (family)*/
+	color:silver;
+	font-weight:bold;
+	text-decoration:underline;
+	/*background-color:rgb(80%,40%,0%);*/
+	line-height:1.6em;/*文本行高*/
+	}	/*--会继承（与字体相关的） 字体系列 大小 文本颜色 字体粗细 添加装饰*/
+h1,h2{
+			
+	color: grey;
+	font-weight:normal;	
+	background-color:rgb(204,102,0);
+	}
+h1{
+	font-size:80%;	/*body使用关键字，其他使用百分数*/                                                                                                                                                                                                                                
+	boder-bottom: 1px solid black;	
+	background-color:#cc6600;
+	}
+p{
+	color: red;
+	font-size:0.7em;
+	font-style:oblique;/*倾斜风格*/
+	}
+e{
+	font-size:large;
+	font-style:italic;	/*斜体*/
+	font-family:serif;	/*覆盖继承*/
+	}
+@media=screen and (max-device-width:480px）{
+.green{
+	color:green;
+	}
+}		/*在css中添加媒体查询*/
+.g{
+	boder-color:black;
+	boder-width:1px;		/*边框可以简写顺序随意 thin solid #007e7e*/
+	boder-radius:15px;		/*设置圆角*/
+	boder-top-left-radius:0px;
+	boder-style:solid;		/*solid double groove outset dotted dashed inset ridge*/	/*边框的样式颜色宽度都可以独立设定*/
+	background-color:#a7cece;
+	padding:25px;
+	padding-left:80px;		/*可以简写 上右下左 或（上下）（左右）*/
+	margin:30px;
+	margin-right:250px;
+	background-image:url(images/backgronud.gif);
+	background-repeat:no-repeat;		/*背景可以简写顺序随意 /
+	background0position: top left;		/*no-repeat repeat-x repeat-y inherit 可选*/
+	}
+.w{
+	font-style:italic;
+	}
+#1{
+	color:red;
+	peddling:20px;
+	width:200px;
+	margin-right:auto;
+	margin-left:auto;		/*凝胶布局*/
+	}		/*类以字母开头，id以数字或字母开头。只允许字母数字和_*/
+#a{
+	position:absolute;		/*绝对定位*/
+	top:100px;
+	right:200px;
+	z-index:1;
+	boder-color:#007e7e;
+	boder-width:thin;
+	boder-style:solid;	
+	width:200px;		/*内容区宽度*/
+	text-align:center;		/*对齐方式 只能用于块属性*/
+	float:right;	/*浮动到右边*/
+	clear:right;		/*不允许有浮动内容*/
+	}
+#a h2{
+	position:fixed;
+	top:300px;
+	left:-100px;		/*固定定位*/
+	color:black;
+	line-heigh:1;		/*直接使用数*/
+	}
+a:link{
+	color:green;
+	}
+a:visited{
+	color:red;
+	}
+a:hover{
+	color:yellow;
+	}		/*设置链接样式*/
+@font-face{
+	font-family:"Emblema One";
+	src:url:
+	      url:
+	}/*使用web字体*/
+table{
+	margin-left:20px;
+	margin-right:20px;
+	boder:thin solid black;
+	caption-side:bottom;
+	border-collapse:collapse;
+	
+}
+td,th{
+	boder:thin dotted grey;
+	padding:5px;
+	background-color:#cc6600;
+}
+table table th{
+	background-color:white;
+}
+
+tr:nth-child(odd){
+	background-color:#fcba7a;
+}
+li{
+	list-style-type:disc;
+}	/*circle square none image*/
+caption{
+	font-style:italic;
+	padding-top:8px;
+}
+/*盒模型
+内容区
+内边距 padding 可选 没有颜色和装饰
+边框 可选 有宽度颜色样式
+外边距margin 同内边距*/
+/*表格布局：table table-row table-cell*/
+/*伪元素：p：first-letter  p:first-line
+属性选择器：img[width]
+兄弟选择：h1+p
+结合选择:div#green>blockquote p:first-line
+
+

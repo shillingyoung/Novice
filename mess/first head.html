@@ -1,0 +1,147 @@
+<!doctype html>				<!--html标准->
+<html>
+	<head>				<!--页面开始-->
+	<meta charset="utf-8">
+	<title>Head First Lounge</title>	<!--页面标题-->
+<!--	<style type="text/css">
+		body{
+			background-color:#d2b47c;
+			margin-left:20%;
+			margin-right:20%;
+			boeder: 2px dotted black;
+			padding: 10px 10px 10px 10px;	创建内边距
+			font-family: sana-serif;		定义字体
+		}
+		h1,h2{
+			font-family: sans-serif;
+			color: grey;
+			boder-bottom: 1px solid black;	1像素黑色实线
+			}
+		h2 {
+			font-family: sans-serif;
+			color: grey;
+			}
+		p{
+			color: red;
+			}
+	</style>			添加样式css		
+-->
+	<link type="text/css" rel="stylesheet" href="1.css" media="screen and (max-device-width:480px)">	
+	<!--信息类型 与链接的关系 指定显示设备 可以链接多个样式表，最后的优先-->	
+	
+	</head>				<!--head只能有meta title style-->
+
+	<body>
+		<h1>Welcome to the Head FIrst Lounge</h1>	<!--标题1-->
+		<a href="html/seattle_downtown.html">
+		<img src="images/drinks.gif"> </a>	<!--图像作为链接-->
+		<img src="http://www.starbuzzcoffee.com/images/corporate/ceo.jpg"
+		   alt="the typical new pencil" width="48" height="100">		<!--创建图像,添加描述,指定大小.在5中alt是必要的-->
+		
+		<p >					<!--段落-->
+		jion us any evening for refreshing elixirs
+		<em>dance dance revolution</em>		<!--强调-->
+		</p>
+
+		<div id="a">		<!--逻辑区-->
+		<h2>Directions</h2>
+
+		<p class="green berry">		<!--类 元素可以加入很多类（冲突会使用css里最后的）-->
+		come join us!
+		refreashing <a href="elixir.html">elixirs</a>,	<!--<a>创建超文本链接-->
+		our <a href="directions.html">detailed direction</a>.
+		<a href="lounge.html"
+		  title="our mission">Back to Lounge</a>
+		<br>
+		<a target="_blank" href="http://wickedlysmart.com/buzz/index.html#Metabolism_and_toxicology"	
+			title="Read all about caffeine on the Buzz">Caffeine Buzz</a>		<!--tiltle(文本描述)(顺序不重要)--><!--target新窗口打开链接-->
+		<q>To be or not to be</q>			<!--引用标记-->
+		
+		<blockquote class="green">				<!--长引用-->
+			Passing cars,
+			when you can't see,<br>		<!--换行-->
+			may get you,
+			a glimpse
+		</blockquote>
+
+		</p>
+
+		<ol>				<!--有序 ul(无序)-->
+		<li><span class="w">walla walla</span></li>			<!--列表 独立显示-->
+		<li>magic city</li>						<!--内联元素逻辑分组-->
+			<ul>
+			<li>ipod</li>
+			<li>camera</li>
+			</ul>
+		<li>bountiful</li>
+		</ol>
+
+		<h3 id="1"> The first</h2>		<!--id标记-->
+		<p>
+		<a href="#1">See</a>
+		</p>
+		
+		</div>
+		<article>
+		<header>
+		<h2>Most unique</h2>
+		<time datetime="2022-9-20">20/9/2022</time>
+		<br>
+		<video controls autoplay width="512" height="288" src="video/tweetsip.mp4">
+		<!--video属性：controls autoplay src preload poster loop width height-->
+		</header>
+		</article>
+		<br>
+		<table>
+		<caption>
+		THE CITY
+		</caption>
+		<tr>	<!--行-->
+			<th>City</th>	<!--表头-->
+			<th>Date</th>
+			<th></th>
+			<th></th>
+		</tr>
+		<tr>
+			<td>walla</td>	<!--列-->
+			<td>june 15th</td>
+			<td rowspan="2">1000</td>	<!--colspan-->
+			<td>
+			<table>
+				<tr>
+				<th>tess</th>
+				<td>5<td>
+				</tr>	
+				<tr>
+				<th>tony</th>
+				<td>4<td>
+				</tr>	
+			</table>	
+		</td>
+		</tr>
+		</table>
+		<form action="http://wickedlysmart.com/hfhtmlcss/contest.php" method="POST">
+		<p>Just type it<br>
+		First name:<input type="text" name="firstname" value=""><br>		<!--文本输入-->
+		Last name:<input type="text" name="lastname" value=""><br>		<!--radio（单选钮）checkbox（复选框）-->
+		<input type="submit" name="order now"> 		<!--提交输入-->
+		<input type="radio" name="hotornot" value="hot">
+		<input type="radio" name="hotornot" value="not">
+		<input type="checkbox" name="spice" value="salt">
+		<input type="checkbox" name="spice" value="pepper">
+		<input type="textarea" name="comments" rows="10" cols="48"></textarea>
+		<select name="char" >
+		<option value="tommy">toy</option>
+		<option value="Buckaroo">Buck</option>
+		</select>
+		<input type="number" min="0" max="20">
+		<input type="range" min="0" max="20" step="5">
+		<input type="color" >	<!--date tel e-mail url-->
+		</p>
+	<script   src="dom.js">
+	</script>
+	</body>
+</html>
+<!--新元素
+header  footer article nav time aside section video
+-->
