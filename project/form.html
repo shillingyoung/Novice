@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>form</title>
+	</head>
+	<body>
+		<form action="do.action" method="post">
+		<table border="1" cellspacing="" cellpadding="">
+			<tr><th colspan="2">信息统计表</th></tr>
+			<tr>
+				<td>姓名：</td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td>年龄：</td>
+				<td><input type="text"/></td>
+			</tr>
+			<tr>
+				<td>性别：</td>
+				<td>
+					<input type="radio"/>男
+					<input type="radio"/>女
+				</td>
+			</tr>
+			<tr>
+				<td>爱好</td>
+				<td>
+					<input type="checkbox"/>旅游<br>
+					<input type="checkbox"/>登山<br>
+					<input type="checkbox"/>健身<br>
+					<input type="checkbox"/>上网<br>
+					<input type="checkbox"/>游泳
+				</td>
+			</tr>
+			<tr>
+				<td>学历：</td>
+				<td>
+					<select>
+						<option value="0">--请选择--</option>
+						<option value="1">专科</option>
+						
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>自我介绍：</td>
+				<td>
+					<textarea name="" id="" cols="30" rows="10">自我介绍：</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					&nbsp;
+				</td>
+				<td>
+					<input type="submit" value="提交">
+					<input type="reset" value="重置">
+				</td>
+			</tr>
+		</table>	
+		</form>
+		<br>
+		<form action="">
+			密码 *<input type="password">
+			<br>
+			密码确认 *<input type="password">
+			<br>
+			姓名 *<input type="text" >
+			<br>
+			证件类型 *<select>
+				<option value="0">居民身份证</option>
+				<option value="1">护照</option>
+			</select><br>
+			证件号码 *<input type="text" ><br>
+			安全邮箱 *<input type="text" > 请使用其他有效邮箱<br>
+			密保问题1 *<select>
+				<option value="0">请选择</option>
+			</select>
+			答案<input type="text"><br>
+			密保问题2 *<select>
+				<option value="0">请选择</option>
+			</select>
+			答案<input type="text"><br>
+			密保问题3 *<select>
+				<option value="0">请选择</option>
+			</select>
+			答案<input type="text"><br>
+			<input type="checkbox">同意<a href="">服务条款</a>
+			<br>
+			<input type="submit" value="立即注册"><a href="">忘记密码？</a>
+			|<a href="">忘记用户名？</a>
+		</form>
+		<br>
+		<form>
+			姓名<input type="text" required><br>
+			年龄<input type="number" max="100" min="0"><br>
+			出生日期<input type="date"><br>
+			Email <input type="email" required><br>
+			个人主页 <input type="url"/><br>
+			个人简介 <textarea required cols="30" rows="10"></textarea><br>
+			头像 <input type="file"  /><br>
+			<input type="submit">
+		</form>
+	</body>
+</html>

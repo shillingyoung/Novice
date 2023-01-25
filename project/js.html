@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			.d1{
+				background-color: aliceblue;
+			}
+			.d2{
+				background-color: antiquewhite;
+			}
+			.d3{
+				background-color: aqua;
+			}
+			.d4{
+				background-color: aquamarine;
+			}
+			.d{
+				width: 50%;
+				height:300px;
+				float: left;
+			}
+			.box2{
+				
+				float: left;
+				background-color: bisque;
+				width: 400px;
+				height: 400px;
+			}
+			.box3{
+				margin: 0 auto;
+				background-color: burlywood;
+				width: 400px;
+				height: 400px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="d1 d" onmouseenter="alert('go away')"></div>
+		<div class="d2 d" onmouseover="alert('don't touch)"></div>
+		<div class="d3 d" onclick="alert('kick me?')"></div>
+		<div class="d4 d" ondblclick="alert('hit me')"></div>
+		<img src="img/007gs6vHgy1gjbfegfn7kj353q3eihe0.jpg"  width="30%">
+		<br>
+		<input type="text" onchange="alert('write')">
+		<h1 id="timer">00:00:00</h1>
+		<h1 id="date">2022年10月12日</h1>
+		<input type="button" value="create" onclick="openWindow()">
+		<input type="button" value="close" onclick="closewindow()">
+		<input type="button" value="delete" onclick="cancal()">
+		<input type="button" value="input" onclick="input()">
+		<div class="box2"><p>离离原上草</p></div>
+		<div class="box3">
+			<input type="text" name="text1" onfocus="clr(event)">
+			<button onclick="change()">change</button><br>
+			next<input type="text" name="text2" onfocus="clr(event)">
+			<button onclick="add()">add</button><br>
+			<input type="text" name="color">
+			<button onclick="color()">color</button><br>
+			<button onclick="hide()">hide</button>
+			<button onclick="show()">show</button>
+		</div>
+		
+		<script src="js/xm.js"></script>
+	</body>
+</html>
